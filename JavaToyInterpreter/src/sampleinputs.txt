@@ -1,0 +1,17 @@
+java.lang.String word = new java.lang.String("Interpreter");
+
+java.lang.String nextWord = word.substring(0,4);
+
+word = word.concat(nextWord);
+
+java.lang.Integer eIndex = word.indexOf("e");
+
+MyClass obj = new MyClass(3, "Hey!");
+
+String output = obj.toString();
+
+Integer num = obj.getNumber();
+
+output = obj.getMessage();
+
+obj.print();
